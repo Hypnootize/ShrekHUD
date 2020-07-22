@@ -1,0 +1,96 @@
+#base "../../../resource/default/BackPackPanel.res"
+
+"Resource/UI/FullLoadoutPanel.res"
+{
+	"PageButtonsAnchor"								//Moves the A & D Buttons
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"PageButtonsAnchor"
+		"xpos"										"c-263"
+		"ypos"										"37"
+		"zpos"										"0"
+		"wide"										"20"
+		"tall"										"20"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
+	"PrevPageButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"PrevPageButton"
+		"xpos"										"5"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"20"
+		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"&A"
+		"font"										"HudFontSmallBold"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"Command"									"prevpage"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling" 							"CurPageLabel"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"CurPageLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CurPageLabel"
+		"font"										"HudFontSmallBold"
+		"labelText"									"%backpackpage%"
+		"textAlignment"								"center"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"20"
+		"autoResize"								"1"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"fgcolor_override" 							"200 80 60 255"
+		
+		"pin_to_sibling" 							"PageButtonsAnchor"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
+	"NextPageButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"NextPageButton"
+		"xpos"										"5"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"20"
+		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"&D"
+		"font"										"HudFontSmallBold"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"Command"									"nextpage"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling" 							"CurPageLabel"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+	}
+}

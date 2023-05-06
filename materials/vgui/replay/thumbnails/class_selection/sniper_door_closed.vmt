@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" 				"vgui\replay\thumbnails\class_selection\sniper_door_closed"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+}

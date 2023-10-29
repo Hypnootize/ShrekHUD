@@ -19,7 +19,6 @@
 		"robot_x_step"								"23"
 		"robot_y_step"								"0"
 
-
 		"color_blue"								"84 111 127 255"
 		"color_red"									"171 59 59 255"
 
@@ -71,7 +70,6 @@
 		"tall"										"13"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundtype"						"0"
 		"bgcolor_override"							"100 255 0 100"
@@ -864,7 +862,6 @@
 		"tall"										"110"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 
 		"CountdownLabelTime"
 		{

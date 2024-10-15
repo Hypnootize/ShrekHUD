@@ -16,9 +16,9 @@
 		"border"									"NoBorder"
 		"bgcolor_override"							"SwampBrown"
 
-		"log_font_small"							"ShrekFont20"
-		"log_font_medium"							"ShrekFont20"
-		"log_font_large"							"ShrekFont20"
+		"log_font_small"							"Shrekfont12"
+		"log_font_medium"							"Shrekfont12"
+		"log_font_large"							"Shrekfont12"
 
 		"chat_color_default"						"255 255 255 255"
 		"chat_color_player_name"					"255 255 0 255"

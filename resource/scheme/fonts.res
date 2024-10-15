@@ -642,31 +642,52 @@ Scheme
 		{
 			"1"
 			{
-				"name"		  								"TF2 Build"
-				"tall"      								"10"
-				"antialias" 								"1"
-				"yres"	    								"480 700"
+				"name"										"TF2 Build"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		 								"TF2 Build"
-				"tall"      								"14"
-				"antialias" 								"1"
-				"yres"	    								"701 899"
+				"name"										"TF2 Build"
+				"tall"										"13"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		  								"TF2 Build"
-				"tall"      								"18"
-				"antialias" 								"1"
-				"yres"	    								"900 1000"
+				"name"										"TF2 Build"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"		  								"TF2 Build"
-				"tall"      								"20"
-				"antialias" 								"1"
-				"yres"	    								"1001 10000"
+				"name"										"TF2 Build"
+				"tall"										"20"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"TF2 Build"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"TF2 Build"
+				"tall"										"12"
+				"range" 									"0x0000 0x00FF"
+			}
+			"7"
+			{
+				"name"										"Arial"
+				"tall"										"12"
+				"range" 									"0x0000 0x00FF"
 			}
 		}
 		"DefaultSmall"
@@ -674,33 +695,47 @@ Scheme
 			"1"
 			{
 				"name"										"Shrek Regular"
-				"tall"      								"11"
-				"antialias" 								"1"
-				"yres"										"480 700"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
 				"name"										"Shrek Regular"
-				"tall"      								"14"
-				"antialias" 								"1"
-				"yres"										"701 899"
+				"tall"										"13"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
 				"name"										"Shrek Regular"
-				"tall"     									"18"
-				"antialias" 								"1"
-				"yres"										"900 1000"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
 				"name"										"Shrek Regular"
-				"tall"      								"22"
-				"antialias" 								"1"
-				"yres"										"1001 10000"
+				"tall"										"20"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Shrek Regular"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Arial"
+				"tall"										"12"
+				"range" 									"0x0000 0x00FF"
 			}
 		}
-
 		"DefaultUnderline"
 		{
 			"1"
@@ -759,10 +794,9 @@ Scheme
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
+				"tall"										"9"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -806,10 +840,9 @@ Scheme
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"30"
+				"tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -860,6 +893,7 @@ Scheme
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
+				"antialias"									"1"
 			}
 			"2"
 			{
@@ -867,6 +901,7 @@ Scheme
 				"tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
+				"antialias"									"1"
 			}
 			"3"
 			{
@@ -874,6 +909,7 @@ Scheme
 				"tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
@@ -881,13 +917,14 @@ Scheme
 				"tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"24"
+				"tall"										"12"
 				"weight"									"700"
-				"yres"										"1200 10000"
+				"antialias"									"1"
 			}
 		}
 
@@ -924,9 +961,8 @@ Scheme
 			"5"
 			{
 				"name"										"Shrek Regular"
-				"tall"										"50"
+				"tall"										"24"
 				"antialias" 								"1"
-				"yres"										"1200 10000"
 			}
 		}
 
@@ -995,6 +1031,13 @@ Scheme
 			{
 				"name"										"Shrek Regular"
 				"tall"										"22"
+				"antialias" 								"1"
+				"yres"										"1 1199"
+			}
+			"2"
+			{
+				"name"										"Shrek Regular"
+				"tall"										"10"
 				"antialias" 								"1"
 			}
 		}
@@ -2563,7 +2606,7 @@ Scheme
 			"1"
 			{
 				"name"										"Shrek Regular"
-				"tall"										"8"
+				"tall"										"10"
 				"antialias" 								"1"
 			}
 		}
